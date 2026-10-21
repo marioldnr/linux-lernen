@@ -21,3 +21,8 @@ jobs:
 
       - name: Welches System läuft hier?
         run: uname -a
+
+      - name: Meine Erweiterung 
+        run: echo "Mein Name ist Mario" 
+
+      
