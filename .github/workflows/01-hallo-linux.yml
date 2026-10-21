@@ -25,4 +25,10 @@ jobs:
       - name: Meine Erweiterung 
         run: echo "Mein Name ist Mario" 
 
+      - name: Aktuelles Datum 
+        run: date +%Y-%m-%d
+
+      - name: Name
+        run: uname -r
+
       
