@@ -26,8 +26,7 @@ jobs:
           touch arbeit/notizen.txt
           echo "Erste Notiz" > arbeit/notizen.txt
           ls -l arbeit
-          cp daten/einkauf.txt
-          backup/einkauf.txt
+          cp daten/einkauf.txt backup/einkauf.txt
           ls backup
 
       - name: Kopieren, umbenennen, löschen
