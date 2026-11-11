@@ -32,9 +32,36 @@ jobs:
 
       - name: Kopieren, umbenennen, löschen
         run: |
-          cp daten/einkauf.txt arbeit/kopie.txt
-          mv arbeit/kopie.txt arbeit/liste.txt
-          ls arbeit
-          rm arbeit/notizen.txt
-          echo "--- nach dem Löschen ---"
-          ls arbeit
+            cp daten/einkauf.txt arbeit/kopie.txt
+
+            mv arbeit/kopie.txt arbeit/liste.txt
+
+            mkdir -p backup
+
+            cp daten/einkauf.txt backup/einkauf.txt
+
+            ls backup
+ 
+            echo "Butter" >> arbeit/liste.txt
+
+            cat arbeit/liste.txt
+ 
+            ls arbeitcp daten/einkauf.txt arbeit/kopie.txt
+
+            mv arbeit/kopie.txt arbeit/liste.txt
+
+            mkdir -p backup
+
+            cp daten/einkauf.txt backup/einkauf.txt
+
+            ls backup
+ 
+            echo "Butter" >> arbeit/liste.txt
+
+            cat arbeit/liste.txt
+ 
+            ls arbeit
+            
+            
+            hat Kontextmenü
+ 
